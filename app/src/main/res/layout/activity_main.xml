@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerBooks"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:prompt="@string/prompt_select_book" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupYears"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio2000"
+            android:layout_width="104dp"
+            android:layout_height="51dp"
+            android:text="2000" />
+
+        <RadioButton
+            android:id="@+id/radio2010"
+            android:layout_width="104dp"
+            android:layout_height="51dp"
+            android:text="2010" />
+
+        <RadioButton
+            android:id="@+id/radio2020"
+            android:layout_width="104dp"
+            android:layout_height="51dp"
+            android:text="2020" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonOk"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="OK" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:paddingTop="16dp"
+        android:textSize="25sp" />
+</LinearLayout>
